@@ -20,3 +20,5 @@ The Elastic Stack is a collection of open-source tools developed by Elastic for 
 Think of the Elastic Stack as a well-oiled machine for working with your data. Beats collect data from various sources, Logstash (if used) can transform it for better analysis, and finally, Elasticsearch stores and indexes the data for super-fast searching. Kibana then takes that indexed data and lets you visualize it in meaningful ways.
 
 While Logstash is a valuable tool, the Elastic Stack can function without it. Beats can directly send data to Elasticsearch in some cases, and other data processing tools can be integrated as well.
+
+https://www.elastic.co/guide/en/elasticsearch/reference/current/search-analyze.html
