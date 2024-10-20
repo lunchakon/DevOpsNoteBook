@@ -77,7 +77,7 @@ def get_user_data(user_id):
 get_user_data(1001)  # Should print a cache hit
 get_user_data(1002)  # Should print a cache miss```
 
-#5. Explanation of the Architecture
+# 5. Explanation of the Architecture
 Client (User): Sends requests to the server, typically through a web or mobile app.
 Web Server (API): Processes the requests and sends responses back to the client.
 Redis Cache: Caches frequently requested data to reduce the load on the database.
@@ -86,7 +86,7 @@ Nginx: Acts as a reverse proxy, balancing traffic between different web services
 
 
 
-$6. Run it in a Jupyter Notebook
+# 6. Run it in a Jupyter Notebook
 Copy the above code blocks into a Jupyter notebook, and run the cells sequentially. You’ll see:
 
 A diagram showing the architecture.
