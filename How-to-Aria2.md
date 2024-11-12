@@ -153,3 +153,12 @@ aria2c --bt-max-peers=0 --bt-tracker-connect-timeout=10 --bt-stop-timeout=180 to
 ```
 
 
+## Scripts :
+```
+#!/bin/bash
+
+URL="http://example.com/file.txt"
+OUTPUT="file.txt"
+
+aria2c -o "$OUTPUT" "$URL"
+```
